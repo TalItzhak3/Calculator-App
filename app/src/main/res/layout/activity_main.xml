@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/screen"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="end|center_vertical"
+        android:background="#E0E0E0"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        android:padding="16dp"
+        android:text="0"
+        android:elevation="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonAC"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="AC"
+            android:textSize="24sp"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_ac"
+            android:onClick="resetFunc" />
+
+        <Button
+            android:id="@+id/buttonDel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="DEL"
+            android:textSize="24sp"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_ac"
+            android:onClick="deleteFunc" />
+
+        <Button
+            android:id="@+id/buttonDiv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="/"
+            android:textSize="24sp"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_operator"
+            android:onClick="operFunc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonSeven"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="7"
+            android:textSize="32sp"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_number"
+            android:onClick="numFunc" />
+
+        <Button
+            android:id="@+id/buttonEight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="8"
+            android:textSize="32sp"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_number"
+            android:onClick="numFunc" />
+
+        <Button
+            android:id="@+id/buttonNine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="9"
+            android:textSize="32sp"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_number"
+            android:onClick="numFunc" />
+
+        <Button
+            android:id="@+id/buttonMul"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="X"
+            android:textSize="24sp"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_operator"
+            android:onClick="operFunc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonFour"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="4"
+            android:textSize="32sp"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_number"
+            android:onClick="numFunc" />
+
+        <Button
+            android:id="@+id/buttonFive"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="5"
+            android:textSize="32sp"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_number"
+            android:onClick="numFunc" />
+
+        <Button
+            android:id="@+id/buttonSix"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="6"
+            android:textSize="32sp"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_number"
+            android:onClick="numFunc" />
+
+        <Button
+            android:id="@+id/buttonMin"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="-"
+            android:textSize="24sp"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_operator"
+            android:onClick="operFunc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonOne"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1"
+            android:textSize="32sp"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_number"
+            android:onClick="numFunc" />
+
+        <Button
+            android:id="@+id/buttonTwo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="2"
+            android:textSize="32sp"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_number"
+            android:onClick="numFunc" />
+
+        <Button
+            android:id="@+id/buttonThree"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="3"
+            android:textSize="32sp"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_number"
+            android:onClick="numFunc" />
+
+        <Button
+            android:id="@+id/buttonPlus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="+"
+            android:textSize="24sp"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_operator"
+            android:onClick="operFunc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonZero"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="0"
+            android:textSize="32sp"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_number"
+            android:onClick="numFunc" />
+
+        <Button
+            android:id="@+id/buttonDot"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="."
+            android:textSize="32sp"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_number"
+            android:onClick="numFunc" />
+
+        <Button
+            android:id="@+id/buttonEq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="="
+            android:textSize="24sp"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_operator"
+            android:onClick="equalFunc" />
+    </LinearLayout>
+
+</LinearLayout>
