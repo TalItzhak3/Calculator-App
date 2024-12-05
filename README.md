@@ -22,7 +22,7 @@ A simple and functional calculator app built using Android Studio and Kotlin. Th
 ---
 
 ## Screenshots 📸
-![Calculator App Screenshot](screenshot/Calculator_Screenshot.jpg)
+<img src="screenshot/Calculator_Screenshot.jpg" alt="Calculator App Screenshot" width="400">
 
 ---
 
