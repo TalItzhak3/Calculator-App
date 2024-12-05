@@ -14,7 +14,7 @@ A simple and functional calculator app built using Android Studio and Kotlin. Th
 ---
 
 ## Technologies Used 🛠️
-- **Language**: Kotlin
+- **Language**: Java
 - **IDE**: Android Studio
 - **Build System**: Gradle
 - **UI Components**: XML-based layouts
